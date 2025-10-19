@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  aliyunpan:
+    build: .
+    container_name: aliyunpan
+    ports:
+      - "5173:5173"  # Vite dev server
+      - "5900:5900"  # VNC server
+    environment:
+      - NODE_ENV=production
+      - ELECTRON_DISABLE_SECURITY_WARNINGS=1
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+    volumes:
+      - ./data:/home/electron/.config  # Persist user data/config
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw  # For X11 forwarding (Linux)
+    networks:
+      - aliyunpan-net
+    restart: unless-stopped
+
+networks:
+  aliyunpan-net:
+    driver: bridge
