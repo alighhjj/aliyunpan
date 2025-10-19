@@ -1,52 +1,5 @@
-<p align="center">
-  <img src="https://github.com/gaozhangmin/staticResource/blob/master/images/icon.png" alt="NebulaGraph Data Intelligence Suite(ngdi)">
-</p>
-<p align="center">
-    <br> English | <a href="README-CN.md">中文</a>
-</p>
-<p align="center">
-    <em>小白羊网盘 - powered by 阿里云盘Open.</em>
-</p>
-
-<p align="center">
-<!--   <a href="https://github.com/gaozhangmin/staticResource/blob/master/images/wechat_public_account.png" target="_blank">
-    <img src="https://img.shields.io/badge/-微信关注“小白羊网盘”公众号-orange.svg" alt="#" align="right">
-  </a> -->
-  <a href="LICENSE" target="_blank">
-    <img alt="MIT License" src="https://img.shields.io/github/license/gaozhangmin/aliyunpan?style=flat-square&logoColor=white" />
-  </a>
-
-  <!-- TypeScript Badge -->
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-blue?style=flat-square&logo=typescript&logoColor=white" />
-
-  <!-- VUE Badge -->
-  <img alt="VUE" src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=white" />
-
-  <a href="https://github.com/gaozhangmin/aliyunpan/releases" target="_blank">
-    <img alt="macOS" src="https://img.shields.io/badge/-macOS-black?style=flat-square&logo=apple&logoColor=white" />
-  </a>
-
-  <a href="https://github.com/gaozhangmin/aliyunpan/releases" target="_blank">
-    <img alt="Windows" src="https://img.shields.io/badge/-Windows-blue?style=flat-square&logo=windows&logoColor=white" />
-  </a>
-
-  <a href="https://github.com/gaozhangmin/aliyunpan/releases" target="_blank">
-    <img alt="Linux" src="https://img.shields.io/badge/-Linux-yellow?style=flat-square&logo=linux&logoColor=white" />
-  </a>  
-
-  <a href="https://github.com/gaozhangmin/aliyunpan/stargazers" target="_blank">
-    <img alt="Star" src="https://img.shields.io/github/stars/gaozhangmin/aliyunpan?style=social" />
-  </a>
-
-  <a href="https://github.com/gaozhangmin/aliyunpan/releases/latest" target="_blank">
-    <img alt="Star" src="https://img.shields.io/github/downloads/gaozhangmin/aliyunpan/total?style=social" />
-  </a>
-
-</p>
-
-
-[![](https://img.shields.io/badge/-%E5%8A%9F%E8%83%BD-blue)](#功能-) [![](https://img.shields.io/badge/-%E7%95%8C%E9%9D%A2-blue)](#界面-) [![](https://img.shields.io/badge/-%E5%AE%89%E8%A3%85-blue)](#安装-) [![](https://img.shields.io/badge/-%E5%AE%B9%E5%99%A8%E9%83%A8%E7%BD%B2-blue)](#docker部署-) [![](https://img.shields.io/badge/-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-blue)](#小白羊公众号-) [![](https://img.shields.io/badge/-%E4%BA%A4%E6%B5%81%E7%A4%BE%E5%8C%BA-blue)](#交流社区-) [![](https://img.shields.io/badge/-%E9%B8%A3%E8%B0%A2-blue)](#鸣谢-) [![](https://img.shields.io/badge/-%E5%A3%B0%E6%98%8E-blue)](#免责声明-)
-
+# 基于如下项目二次开发
+https://github.com/gaozhangmin/aliyunpan
 
 # 功能 [![](https://img.shields.io/badge/-%E5%8A%9F%E8%83%BD-blue)](#功能-)
 1.根据阿里云盘Open平台api开发的网盘客户端，支持win7-11，macOS，linux <br>
@@ -73,12 +26,6 @@
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
 </a>
 
-# 界面 [![](https://img.shields.io/badge/-%E7%95%8C%E9%9D%A2-blue)](#界面-)
-<img src="https://github.com/gaozhangmin/staticResource/blob/master/images/main_window.png" width="270"><img src="https://github.com/gaozhangmin/staticResource/blob/master/images/download_page.png" width="270"><img src="https://github.com/gaozhangmin/staticResource/blob/master/images/movie_page.png" width="270">
-<img src="https://github.com/gaozhangmin/staticResource/blob/master/images/plugin_page.png" width="270"><img src="https://github.com/gaozhangmin/staticResource/blob/master/images/settings_page.png" width="270"><img src="https://github.com/gaozhangmin/staticResource/blob/master/images/share_page.png" width="270">
-<a href="#readme">
-<img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
 
 # 安装 [![](https://img.shields.io/badge/-%E5%AE%89%E8%A3%85-blue)](#安装-)
 
@@ -114,81 +61,6 @@
 3.  下载完成后双击安装包进行安装。
 4.  开始使用吧！
 
-
-### 故障排除
-
--   "小白羊网盘" can’t be opened because the developer cannot be verified.
-
-    <p align="center">
-      <img width="300" src="https://github.com/gaozhangmin/aliyunpan/assets/9278488/a850d1ed-f177-47a3-a61e-b82d46c6c47d" />
-    </p>
-
-  -   点击 `Cancel` 按钮，然后去 `设置` -> `隐私与安全性` 页面，点击 `仍要打开` 按钮，然后在弹出窗口里点击 `打开` 按钮即可，以后就再也不会有任何弹窗告警了 🎉
-
-      <p align="center">
-        <img width="500" src="https://github.com/gaozhangmin/aliyunpan/assets/9278488/53743a9f-0b0e-49e2-9331-aabc93483f73" /> <img width="200" src="https://github.com/gaozhangmin/aliyunpan/assets/9278488/0d97a636-7018-4b9a-bd68-27c1c17f6cd8" />
-      </p>
-
-  -   如果在 `隐私与安全性` 中找不到以上选项，或启动时提示文件损坏（Apple Silicon版本）。打开 `Terminal.app`，并输入以下命令（中途可能需要输入密码），然后重启 `小白羊云盘` 即可：
-
-      ```sh
-      sudo xattr -d com.apple.quarantine /Applications/小白羊云盘.app
-      ```
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-# 小白羊公众号 [![](https://img.shields.io/badge/-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-blue)](#小白羊公众号-)
-<p align="center">
-  <img height="360" src="https://github.com/gaozhangmin/staticResource/blob/master/images/qrcode_search_white.png" />
-</p>
-<a href="#readme">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-[//]: # (# 请作者喝一杯咖啡 [![]&#40;https://img.shields.io/badge/-%E8%AF%B7%E5%96%9D%E5%92%96%E5%95%A1-blue&#41;]&#40;#请作者喝一杯咖啡-&#41;)
-
-[//]: # (<p align="center">)
-
-[//]: # (  <img height="360" src="https://github.com/gaozhangmin/staticResource/blob/master/images/wechat_pay.jpeg" />)
-
-[//]: # (  <img height="360" src="https://github.com/gaozhangmin/staticResource/blob/master/images/alipay.jpeg" />)
-
-[//]: # (</p>)
-
-[//]: # (<a href="#readme">)
-
-[//]: # (    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">)
-
-[//]: # (</a>)
-
-# 交流社区 [![](https://img.shields.io/badge/-%E4%BA%A4%E6%B5%81%E7%A4%BE%E5%8C%BA-blue)](#交流社区-)
-
-#### Telegram
-[![Telegram-group](https://img.shields.io/badge/Telegram-%E7%BE%A4%E7%BB%84-blue)](https://t.me/+wjdFeQ7ZNNE1NmM1)
-
-
-# 鸣谢 [![](https://img.shields.io/badge/-%E9%B8%A3%E8%B0%A2-blue)](#鸣谢-)
-本项目基于 https://github.com/liupan1890/aliyunpan 仓库继续开发。
-
-感谢作者 [liupan1890](https://github.com/liupan1890)
-<a href="#readme">
-<img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
-
-# 免责声明 [![](https://img.shields.io/badge/-%E5%A3%B0%E6%98%8E-blue)](#免责声明-)
-1.本程序为免费开源项目，旨在分享网盘文件，方便下载以及学习electron，使用时请遵守相关法律法规，请勿滥用；
-
-2.本程序通过调用官方sdk/接口实现，无破坏官方接口行为；
-
-3.本程序仅做302重定向/流量转发，不拦截、存储、篡改任何用户数据；
-
-4.在使用本程序之前，你应了解并承担相应的风险，包括但不限于账号被ban，下载限速等，与本程序无关；
-
-5.如有侵权，请通过邮件与我联系，会及时处理。
-<a href="#readme">
-<img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>
 # Docker部署 [![](https://img.shields.io/badge/-%E5%AE%B9%E5%99%A8%E9%83%A8%E7%BD%B2-blue)](#docker部署-)
 
 ## 使用Docker Compose (推荐)
@@ -232,4 +104,32 @@ docker run -d -p 5173:5173 -p 5900:5900 -v ./data:/home/electron/.config --name 
 
 <a href="#readme">
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
+</a>
+
+# 交流社区 [![](https://img.shields.io/badge/-%E4%BA%A4%E6%B5%81%E7%A4%BE%E5%8C%BA-blue)](#交流社区-)
+
+#### Telegram
+[![Telegram-group](https://img.shields.io/badge/Telegram-%E7%BE%A4%E7%BB%84-blue)](https://t.me/+wjdFeQ7ZNNE1NmM1)
+
+
+# 鸣谢 [![](https://img.shields.io/badge/-%E9%B8%A3%E8%B0%A2-blue)](#鸣谢-)
+本项目基于 https://github.com/liupan1890/aliyunpan 仓库继续开发。
+
+感谢作者 [liupan1890](https://github.com/liupan1890)
+<a href="#readme">
+<img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
+</a>
+
+# 免责声明 [![](https://img.shields.io/badge/-%E5%A3%B0%E6%98%8E-blue)](#免责声明-)
+1.本程序为免费开源项目，旨在分享网盘文件，方便下载以及学习electron，使用时请遵守相关法律法规，请勿滥用；
+
+2.本程序通过调用官方sdk/接口实现，无破坏官方接口行为；
+
+3.本程序仅做302重定向/流量转发，不拦截、存储、篡改任何用户数据；
+
+4.在使用本程序之前，你应了解并承担相应的风险，包括但不限于账号被ban，下载限速等，与本程序无关；
+
+5.如有侵权，请通过邮件与我联系，会及时处理。
+<a href="#readme">
+<img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
 </a>
